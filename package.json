@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-agency",
+  "version": "1.0.0",
+  "description": "My first Eleventy project, almost certain to have a name change!",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gloriousLoaf/Eleventy-Agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gloriousLoaf/Eleventy-Agency/issues"
+  },
+  "homepage": "https://github.com/gloriousLoaf/Eleventy-Agency#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
