@@ -11,7 +11,7 @@ module.exports = async () => {
     const { items } = await Cache(
       'https://11ty-from-scratch-content-feeds.piccalil.li/media.json',
       {
-        duration: '1d', // 1 day
+        duration: '1d',
         type: 'json',
       }
     );

@@ -1,6 +1,6 @@
 ---
 title: 'Issue 33'
-layout: 'layouts/home.html'
+layout: 'layouts/home.njk'
 intro:
   eyebrow: 'Digital Marketing is our'
   main: 'Bread & Butter'

@@ -1,4 +1,4 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/base.njk" %}
 
 {% block content %}
 <div class="wrapper">
@@ -6,7 +6,9 @@
     <div class="[ intro__header ] [ radius frame ]">
       <h1 class="[ intro__heading ] [ weight-normal text-400 md:text-600 ]">
         {{ intro.eyebrow }}
-        <em class="text-800 md:text-900 lg:text-major weight-bold">{{ intro.main }}</em>
+        <em class="text-800 md:text-900 lg:text-major weight-bold"
+          >{{ intro.main }}</em
+        >
       </h1>
     </div>
     <div class="[ intro__content ] [ flow ]">
@@ -23,13 +25,13 @@
   </article>
 </div>
 
-{% set ctaContent = primaryCTA %} 
-{% include "partials/cta.html" %} 
+{% set ctaContent = primaryCTA %}
+{% include "partials/cta.njk" %}
 
-{% include "partials/featured-work.html" %} 
-{% include "partials/studio-feed.html" %} 
+{% include "partials/featured-work.njk" %}
+{% include "partials/studio-feed.njk" %}
 
-{% set ctaContent = cta %} 
-{% include "partials/cta.html" %} 
+{% set ctaContent = cta %}
+{% include "partials/cta.njk" %}
 
 {% endblock %}
